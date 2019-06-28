@@ -15,5 +15,7 @@
 ### `sudo mkdir /Library/Tomcat/`
 And then we create a soft link from /usr/local/apache-tomcat-9.0.21 to /Library/Tomcat/ directory by following command. 
 ### `sudo ls -s /usr/local/apache-tomcat-9.0.21 /Library/Tomcat`
+(Make sure to put the absolute path while making the soft link)
+
 * **STEP 5:** Add execute permission to the .sh file present inside the bin derectory of the apache-tomcat-x.x.xx package
 ### `sudo chmod +x /Library/Tomcat/apache-tomcat-9.0.21/bin/*.sh`
