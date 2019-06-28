@@ -1,4 +1,4 @@
-## Infrastructure
+## Infrastructure of Spring framework
 
 
 ![Spring Architecture](./images/spring-modules.png)<br/><br/>
