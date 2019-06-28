@@ -21,3 +21,7 @@ And then we create a soft link from /usr/local/apache-tomcat-9.0.21 to /Library/
 ### `sudo chmod +x /Library/Tomcat/apache-tomcat-9.0.21/bin/*.sh`
 
 * **STEP 5:** Check the link localhost:8080 
+
+## Installing Tomcat to Eclipse
+
+
