@@ -24,5 +24,13 @@ And then we create a soft link from /usr/local/apache-tomcat-9.0.21 to /Library/
 
 <br/><br/>
 ## Installing Tomcat to Eclipse
+* Start eclipse ee IDE.
+* Go to servers.
+* Select Tomcat server version 9.0 from the list. 
+* Browse the location of the Tomcat server from the root directory.
+* Click on Finish
+
+
+
 
 
