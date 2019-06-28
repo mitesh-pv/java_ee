@@ -6,7 +6,7 @@
 
 * **Instrumentations:** Makes use of class loader implementations to make use of different app services.
 
-**Install Tomcat for mac os mojave**
+## Install Tomcat for mac os mojave
 * **STEP 1:** Download Tomcat tar.gz 
 * **STEP 2:** Untar the tar file. 
 * **STEP 3:** Move the folder to /usr/local/ directory 
