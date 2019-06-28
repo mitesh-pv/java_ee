@@ -19,3 +19,5 @@ And then we create a soft link from /usr/local/apache-tomcat-9.0.21 to /Library/
 
 * **STEP 5:** Add execute permission to the .sh file present inside the bin derectory of the apache-tomcat-x.x.xx package
 ### `sudo chmod +x /Library/Tomcat/apache-tomcat-9.0.21/bin/*.sh`
+
+* **STEP 5:** Check the link localhost:8080 
