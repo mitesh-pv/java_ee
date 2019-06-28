@@ -13,5 +13,5 @@
 ### `sudo mv apache-tomcat-9.0.21 /usr/local/`
 * **STEP 4:** Create a soft link to make the installed version of tomcat easy to update, we create a Tomcat folder in Library directory by following command. 
 ### `sudo mkdir /Library/Tomcat/`
-and then we create a soft link from /usr/local/apache-tomcat-9.0.21 to /Library/Tomcat/ directory by following command. 
+And then we create a soft link from /usr/local/apache-tomcat-9.0.21 to /Library/Tomcat/ directory by following command. 
 ### `sudo ls -s /usr/local/apache-tomcat-9.0.21 /Library/Tomcat`
