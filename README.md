@@ -9,5 +9,9 @@
 **Install Tomcat for mac os mojave**
 * **STEP 1:** Download Tomcat tar.gz 
 * **STEP 2:** Untar the tar file. 
-* **STEP 3:** move the folder to /usr/local/ directory 
+* **STEP 3:** Move the folder to /usr/local/ directory 
 ### `sudo mv apache-tomcat-9.0.21 /usr/local/`
+* **STEP 4:** Create a soft link to make the installed version of tomcat easy to update, we create a Tomcat folder in Library directory by following command. 
+### `sudo mkdir /Library/Tomcat/`
+and then we create a soft link from /usr/local/apache-tomcat-9.0.21 to /Library/Tomcat/ directory by following command. 
+### `sudo ls -s /usr/local/apache-tomcat-9.0.21 /Library/Tomcat`
