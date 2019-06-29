@@ -1,5 +1,8 @@
 # Getting Started with spring project
 
+**Spring bean:** A spring bean is a java object. 
+Bean is an object that is managed by the IoC container. 
+
 **Spring object factory:** Based on the configuration, Spring object factory returns the object of required class.
 
 ## Functions of Spring container
