@@ -14,6 +14,7 @@ Spring container can be configured in 3 ways:
 
 ## Steps to create spring object
 1. Configure the spring beans.
+// applicationContext.xml
 ```xml
 <beans>
   <bean id="vehicle" class="com.spring.spring_getting_started_2.Bike">
@@ -21,5 +22,16 @@ Spring container can be configured in 3 ways:
 ```
 
 2. Create a spring container.
+
+Spring container is Application context.
+
+```java
+ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+```
+
 3. Retrieve the beans from the container.
+```java
+Vehicle vehicle=new context.getBean("vehicle", Vehicle.class);
+```
+First prameter is the id of the bean to be retrieved, second parameter is the interface which is implemented by Bike class.
 
