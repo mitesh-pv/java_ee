@@ -14,7 +14,7 @@ Spring container can be configured in 3 ways:
 
 ## Steps to create spring object
 1. Configure the spring beans.
-```
+```xml
 <beans>
   <bean id="vehicle"
         class="com.spring.spring_getting_started_2.Bike"
