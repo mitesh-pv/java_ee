@@ -9,8 +9,17 @@
  
    
   <!-- Other bean definitions-->
-  <bean id="vehicle" 
+  <bean id="vehicle_1" 
   		class="com.spring.spring_getting_started_2.Car">
+  </bean>
+  
+  <bean id="vehicle_2" 
+  		class="com.spring.spring_getting_started_3.Car">
+  		<constructor-arg ref="vehicleService" />
+  </bean>
+  
+  <bean id="vehicleService"
+  		class="com.spring.spring_getting_started_3.VehicleServicing">
   </bean>
    
 </beans>
