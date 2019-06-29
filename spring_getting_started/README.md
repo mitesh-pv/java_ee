@@ -16,10 +16,9 @@ Spring container can be configured in 3 ways:
 1. Configure the spring beans.
 ```xml
 <beans>
-  <bean id="vehicle"
-        class="com.spring.spring_getting_started_2.Bike"
+  <bean id="vehicle" class="com.spring.spring_getting_started_2.Bike"
 </beans>
-```xml
+```
 
 2. Create a spring container.
 3. Retrieve the beans from the container.
