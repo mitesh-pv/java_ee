@@ -75,7 +75,7 @@ public class Bus implements Vehicle{
 ```xml
 <bean id="vehicle_2" 
   		class="com.spring.spring_getting_started_3.Car">
-  		<property name="vehicleServicing" ref="vehicleService"
+  		<property name="vehicleServicing" ref="vehicleService">
 </bean>
 <bean id="vehicleService"
   		class="com.spring.spring_getting_started_3.VehicleServicing">
