@@ -50,3 +50,35 @@ public class Car implements Vehicle{
   		class="com.spring.spring_getting_started_2.VehicleServicing"> 
  </bean>
 ```
+
+**Steps to create dependency using setter method.**
+
+Inject the deoendencies by using setter methods of the class.
+
+1. Create setter method. 
+
+```java
+public class Bus implements Vehicle{
+  private VehicleServicing vehicleServicing;
+  
+  public Bus(){
+  }
+  
+  public void setVehicleServicing(VehicleServicing vehicleServicing){
+    this.vehicleServicing=vehicleServicing;
+  }
+}
+```
+
+2. Configure dependency injection in spring configuration file.
+
+```xml
+<bean id="vehicle_2" 
+  		class="com.spring.spring_getting_started_3.Car">
+  		<property name="vehicleServicing" ref="vehicleService"
+</bean>
+<bean id="vehicleService"
+  		class="com.spring.spring_getting_started_3.VehicleServicing">
+</bean>
+```
+
