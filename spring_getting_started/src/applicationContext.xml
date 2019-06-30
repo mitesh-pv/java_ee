@@ -21,5 +21,18 @@
   <bean id="vehicleService"
   		class="com.spring.spring_getting_started_3.VehicleServicing">
   </bean>
+  
+  
+  
+  <bean id="vehicle_3" 
+  		class="com.spring.spring_getting_started_4.Bus">
+  		<!-- constructor-arg ref="vehicleService3" /-->
+  		<property name="vehicleServicing" ref="vehicleService3" />
+  </bean>
+   
+   <bean id="vehicleService3"
+  		class="com.spring.spring_getting_started_4.VehicleServicing">
+  </bean>
+   
    
 </beans>
