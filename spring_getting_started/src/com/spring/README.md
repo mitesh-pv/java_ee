@@ -9,7 +9,7 @@
 There are several types of dependency injection techniques. 
 - Constructor injection
 - Setter injection
-
+<br/><br/>
 **Steps to create the dependency using constructor method.** 
 1. Defining the dependency inerface and class.
 
@@ -50,7 +50,7 @@ public class Car implements Vehicle{
   		class="com.spring.spring_getting_started_2.VehicleServicing"> 
  </bean>
 ```
-
+<br/><br/>
 **Steps to create dependency using setter method.**
 
 Inject the deoendencies by using setter methods of the class.
